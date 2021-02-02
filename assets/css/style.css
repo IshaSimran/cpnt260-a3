@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f3f4;
+  align-self: flex-end;
+
+  font-family: 'Karla', sans-serif;
+}
+
+.site-name {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Fjalla One', sans-serif;
+  
+  color: white;
+  background-color: black;
+}
+
+.logo {
+  position: absolute;
+  margin-left: 10px;
+}
+
+.social-links li{ 
+  list-style-type: none;
+
+  flex: auto;
+}
+
+.social-links li a {
+  color: black;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 14px;
+
+  line-height: 30px;
+  margin: auto;
+  padding: 1rem 1rem 1rem;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+    
+  width: 50%;
+  margin: auto;
+  padding: 0;  
+}
+
+.codepen a:hover {
+  background-color: orangered;
+}
+
+.github a:hover {
+  background-color: orangered;
+}
+
+.instagram a:hover {
+  background-color: orangered;
+}
+
+.main-menu li a {
+  color: black;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 14px;
+
+  line-height: 30px;
+  position: relative;
+  margin: auto;
+  padding:0 25px;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.main-menu li {
+  list-style-type: none;
+  
+  flex: auto;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+    
+  width: 50%;
+  margin: auto;
+  padding: 0;    
+  }
+
+nav {
+  position: relative;
+  padding: 10px 20px 10px 10px;
+  margin: auto;
+  width:calc(100% - 60px);
+
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.button-wrapper {
+  display: flex;
+
+  text-align: center;
+}
+
+.button {
+  border: none;
+  border-radius: 3em;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  background-color: orangered;
+  
+  display: inline-block;
+  
+  padding: 1em 2em;
+  width: auto;
+
+  font-family: 'Karla', sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+
+}
+
+.button-wrapper a:hover {
+  color: white;
+  background-color: black;
+}
+
+.main-menu li a:hover {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  padding: 1rem .5rem 1rem .5rem;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 1em auto;
+  min-width: 30ch;
+  max-width: 40ch;
+  
+  display: flex;
+  flex-direction: column;
+
+  padding: 1rem;
+}
+
+img {
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+#footer-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+
+  text-align: center;            
+}
