@@ -61,6 +61,3 @@ Primary change made to site by creating image gallery and adding social media li
 - [Github Icon](https://fontawesome.com/icons/github?style=brands)
 
 - [Instagram Icon](https://fontawesome.com/icons/instagram?style=brands)
-
-### Syntax
-- Sample code used from [Tony Grimes Code Pen](https://codepen.io/browsertherapy/pen/vYGxRNB)

@@ -5,12 +5,7 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #f2f3f4;
-  align-self: flex-end;
-
-  font-family: 'Karla', sans-serif;
-}
+/***** Header *****/
 
 .site-name {
   text-transform: uppercase;
@@ -25,6 +20,18 @@ body {
 .logo {
   position: absolute;
   margin-left: 10px;
+}
+
+/***** Social Links *****/
+/***** I could not figure out how to make my social links appear opposite to my logo *****/
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+    
+  width: 50%;
+  margin: auto;
 }
 
 .social-links li{ 
@@ -48,16 +55,6 @@ body {
   justify-content: center;
 }
 
-ul {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-    
-  width: 50%;
-  margin: auto;
-  padding: 0;  
-}
-
 .codepen a:hover {
   background-color: orangered;
 }
@@ -68,6 +65,31 @@ ul {
 
 .instagram a:hover {
   background-color: orangered;
+}
+
+/***** Main Navigation *****/
+
+nav {
+  position: relative;
+  padding: 10px 20px 10px 10px;
+  margin: auto;
+  width:calc(100% - 60px);
+
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+    
+  width: 50%;
+  margin: auto;
 }
 
 .main-menu li a {
@@ -92,29 +114,12 @@ ul {
   flex: auto;
 }
 
-nav ul {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-    
-  width: 50%;
-  margin: auto;
-  padding: 0;    
-  }
-
-nav {
-  position: relative;
-  padding: 10px 20px 10px 10px;
-  margin: auto;
-  width:calc(100% - 60px);
-
-  text-align: center;
-  font-family: 'Karla', sans-serif;
-
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+.main-menu li a:hover {
+  background-color: black;
+  color: white;
 }
+
+/***** Button *****/
 
 .button-wrapper {
   display: flex;
@@ -128,15 +133,12 @@ nav {
   box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
   background-color: orangered;
   
-  display: inline-block;
-  
   padding: 1em 2em;
   width: auto;
 
   font-family: 'Karla', sans-serif;
   text-transform: uppercase;
   font-size: 1em;
-
 }
 
 .button-wrapper a:hover {
@@ -144,18 +146,25 @@ nav {
   background-color: black;
 }
 
-.main-menu li a:hover {
-  background-color: black;
-  color: white;
+/***** Body *****/
+
+body {
+  background-color: #f2f3f4;
+  align-self: flex-end;
+
+  font-family: 'Karla', sans-serif;
 }
 
 h1 {
   padding: 1rem .5rem 1rem .5rem;
-}
-
-h1, h2, p {
   text-align: center;
 }
+
+h2, p {
+  text-align: center;
+}
+
+/***** Image Gallery *****/
 
 .container {
   display: flex;
@@ -163,9 +172,9 @@ h1, h2, p {
   justify-content: center;
 }
 
-.card {
+.gallery {
   margin: 1em auto;
-  min-width: 30ch;
+  min-width: 20ch;
   max-width: 40ch;
   
   display: flex;
@@ -179,20 +188,11 @@ img {
   width: 100%;
 }
 
-#footer-container {
-  position: relative;
-  min-height: 100vh;
-}
+/***** Footer *****/
 
-#content-wrap {
-  padding-bottom: 2.5rem;    
-}
-
-#footer {
-  position: absolute;
-  bottom: 0;
+.footer {
   width: 100%;
-  height: 2.5rem;
+  padding: 5rem 0 2rem 0;
 
   text-align: center;            
 }
