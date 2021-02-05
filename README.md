@@ -1,4 +1,4 @@
-# CPNT260-A2
+# CPNT260-A3
 By Isha Simran
 
 - [GH Pages Site](https://ishasimran.github.io/cpnt260-a3/)
